@@ -4,5 +4,11 @@
         "canInitializeDocument": true,
         "startableByUser": false,
         "processIsVisibleInMenu": true
+    },
+    {
+        "processDefinitionKey": "contactmoment",
+        "canInitializeDocument": false,
+        "startableByUser": true,
+        "processIsVisibleInMenu": true
     }
 ]

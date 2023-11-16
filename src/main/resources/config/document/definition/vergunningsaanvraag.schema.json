@@ -40,6 +40,22 @@
                     "type": "boolean"
                 }
             }
+        },
+        "kinderen": {
+            "type": "array",
+            "items": {
+                "kind":{
+                    "type": "object",
+                    "properties": {
+                        "naam":{
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "opmerking": {
+            "type": "string"
         }
     },
     "definitions": {

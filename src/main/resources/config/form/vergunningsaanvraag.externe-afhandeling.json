@@ -1,0 +1,104 @@
+{
+    "display": "form",
+    "components": [
+        {
+            "label": "Data Grid",
+            "reorder": false,
+            "addAnotherPosition": "bottom",
+            "layoutFixed": false,
+            "enableRowGroups": false,
+            "initEmpty": false,
+            "tableView": false,
+            "defaultValue": [
+              {}
+            ],
+            "key": "kinderen",
+            "type": "datagrid",
+            "input": true,
+            "components": [
+              {
+                "label": "Naam",
+                "applyMaskOn": "change",
+                "tableView": true,
+                "key": "naam",
+                "type": "textfield",
+                "input": true
+              }
+            ]
+          },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "size": "md",
+        "block": false,
+        "action": "submit",
+        "disableOnInvalid": true,
+        "theme": "primary",
+        "id": "eojt7vp",
+        "input": true,
+        "placeholder": "",
+        "prefix": "",
+        "customClass": "",
+        "suffix": "",
+        "multiple": false,
+        "defaultValue": null,
+        "protected": false,
+        "unique": false,
+        "persistent": false,
+        "hidden": false,
+        "clearOnHide": true,
+        "refreshOn": "",
+        "redrawOn": "",
+        "tableView": false,
+        "modalEdit": false,
+        "dataGridLabel": true,
+        "labelPosition": "top",
+        "description": "",
+        "errorLabel": "",
+        "tooltip": "",
+        "hideLabel": false,
+        "tabindex": "",
+        "disabled": false,
+        "autofocus": false,
+        "dbIndex": false,
+        "customDefaultValue": "",
+        "calculateValue": "",
+        "calculateServer": false,
+        "widget": {
+          "type": "input"
+        },
+        "attributes": {},
+        "validateOn": "change",
+        "validate": {
+          "required": false,
+          "custom": "",
+          "customPrivate": false,
+          "strictDateValidation": false,
+          "multiple": false,
+          "unique": false
+        },
+        "conditional": {
+          "show": null,
+          "when": null,
+          "eq": ""
+        },
+        "overlay": {
+          "style": "",
+          "left": "",
+          "top": "",
+          "width": "",
+          "height": ""
+        },
+        "allowCalculateOverride": false,
+        "encrypted": false,
+        "showCharCount": false,
+        "showWordCount": false,
+        "properties": {},
+        "allowMultipleMasks": false,
+        "addons": [],
+        "leftIcon": "",
+        "rightIcon": ""
+      }
+    ]
+  }

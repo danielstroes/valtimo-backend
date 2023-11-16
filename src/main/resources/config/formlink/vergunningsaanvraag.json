@@ -23,5 +23,10 @@
         "formName": "vergunningsaanvraag.akkoorderen-besluit",
         "formLinkElementId": "AkkoorderenBesluitTask",
         "formAssociationType": "user-task"
+    },
+    {
+        "formName": "vergunningsaanvraag.externe-afhandeling",
+        "formLinkElementId": "ExterneAfhandelingTask",
+        "formAssociationType": "user-task"
     }
 ]

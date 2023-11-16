@@ -1,0 +1,22 @@
+{
+    "display": "form",
+    "components": [
+        {
+        "label": "Opmerking",
+        "applyMaskOn": "change",
+        "autoExpand": false,
+        "tableView": true,
+        "key": "opmerking",
+        "type": "textarea",
+        "input": true
+        },
+        {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "formName": "contactmoment.start",
+        "formLinkElementId": "StartContactmomentStartEvent",
+        "formAssociationType": "start-event"
+    }
+]
